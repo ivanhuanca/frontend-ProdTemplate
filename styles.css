@@ -1,0 +1,23 @@
+/* Horizontal infinite scroll for categories list */
+.horizontal-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #00000000 #00000000;
+}
+.categories-list, .tags-list {
+    overflow-y: auto;
+    width: 100%;
+}
+.categories-list span, .tags-list span {
+    white-space: nowrap;
+}
+/* Horizontal infinite scroll for categories list */
+
+
+
+
+
+
+
+
+
+

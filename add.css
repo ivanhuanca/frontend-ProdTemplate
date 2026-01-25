@@ -1,0 +1,202 @@
+/* BUTTONS */
+.btn,
+.btn:focus,
+.btn:active {
+    border-radius: 999px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.10) !important;
+    border: none !important;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s !important;
+}
+
+.btn-primary,
+.btn-outline-primary {
+    background: linear-gradient(90deg, #0d6efd 60%, #6610f2 100%) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.btn-outline-primary {
+    background: transparent !important;
+    color: #0d6efd !important;
+    border: 2px solid #0d6efd !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background: #0d6efd !important;
+    color: #fff !important;
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #00c853 60%, #00bfae 100%) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.btn-light {
+    background: #23272f !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+/* CARDS */
+.card {
+    border-radius: 1.5rem !important;
+    background: #181a20 !important;
+    border: none !important;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.18) !important;
+    overflow: hidden !important;
+}
+
+.card-title {
+    font-size: 1.15rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+.card-body {
+    background: transparent !important;
+    color: #d1d5db !important;
+}
+
+/* BADGES */
+.badge,
+.badge.rounded-pill {
+    border-radius: 999px !important;
+    font-weight: 600 !important;
+    font-size: 0.95em !important;
+    padding: 0.5em 1.1em !important;
+    /* background: linear-gradient(90deg, #ff9800 60%, #ff3d00 100%) !important; */
+    /* color: #fff !important; */
+    border: none !important;
+}
+
+.badge.bg-danger {
+    background: linear-gradient(90deg, #ff3d00 60%, #ff9100 100%) !important;
+    color: #fff !important;
+}
+
+.badge.bg-primary {
+    background: linear-gradient(90deg, #0d6efd 60%, #6610f2 100%) !important;
+    color: #fff !important;
+}
+
+.badge.bg-secondary {
+    background: linear-gradient(90deg, #6c757d 60%, #343a40 100%) !important;
+    color: #fff !important;
+}
+
+.badge.bg-success {
+    background: linear-gradient(90deg, #00a11b 60%, #00da49 100%) !important;
+    color: #fff !important;
+}
+
+.badge.bg-info {
+    background: linear-gradient(90deg, #17a2b8 60%, #0dcaf0 100%) !important;
+    color: #fff !important;
+}
+
+.badge.bg-warning {
+    background: linear-gradient(90deg, #ff9800 60%, #ff3d00 100%) !important;
+    color: #fff !important;
+}
+
+.badge.bg-light {
+    background: #23272f !important;
+    color: #fff !important;
+}
+
+.badge.bg-purple {
+    background: linear-gradient(90deg, #6f42c1 60%, #d63384 100%) !important;
+    color: #fff !important;
+}
+
+
+
+.text-bg-warning {
+    background: linear-gradient(90deg, #ff9800 60%, #ff3d00 100%) !important;
+    color: #fff !important;
+}
+
+.text-bg-secondary {
+    background: #23272f !important;
+    color: #fff !important;
+}
+
+/* INPUTS */
+.form-control {
+    border-radius: 999px !important;
+    /* background: #23272f !important; */
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.10) !important;
+    padding-left: 2.5rem !important;
+}
+
+.form-control:focus {
+    /* background: #23272f !important; */
+    color: #fff !important;
+    border: none !important;
+    box-shadow: 0 0 0 2px #0d6efd !important;
+}
+
+.input-group-text {
+    background: transparent !important;
+    border: none !important;
+    color: #0d6efd !important;
+}
+
+/* NAVBAR/HEADER */
+header,
+.app-shell {
+    background: #181a20 !important;
+    border-bottom: 1px solid #23272f !important;
+}
+
+/* CATEGORIES & TAGS */
+.categories-list .btn,
+.tags-list .badge,
+.mb-0 {
+    margin-bottom: 0rem !important;
+}
+
+/* MODALS */
+.modal-content {
+    border-radius: 1.5rem !important;
+    background: #23272f !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.modal-header,
+.modal-footer {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* GENERAL */
+body,
+html {
+    background: #181a20 !important;
+    color: #fff !important;
+}
+
+.shadow-sm,
+.shadow,
+.shadow-lg {
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.18) !important;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    height: 8px !important;
+    background: #23272f !important;
+    border-radius: 999px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d6efd !important;
+    border-radius: 999px !important;
+}
