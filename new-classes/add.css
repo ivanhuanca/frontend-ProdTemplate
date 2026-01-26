@@ -8,6 +8,7 @@
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.10) !important;
     border: none !important;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s !important;
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 1) !important;
 }
 
 .btn-primary,
@@ -44,7 +45,7 @@
 /* CARDS */
 .card {
     border-radius: 1.5rem !important;
-    background: #181a20 !important;
+    /* background: #181a20 !important; */
     border: none !important;
     box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.18) !important;
     overflow: hidden !important;
@@ -53,12 +54,12 @@
 .card-title {
     font-size: 1.15rem !important;
     font-weight: 700 !important;
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 
 .card-body {
     background: transparent !important;
-    color: #d1d5db !important;
+    /* color: #d1d5db !important; */
 }
 
 /* BADGES */
@@ -67,10 +68,9 @@
     border-radius: 999px !important;
     font-weight: 600 !important;
     font-size: 0.95em !important;
-    padding: 0.5em 1.1em !important;
-    /* background: linear-gradient(90deg, #ff9800 60%, #ff3d00 100%) !important; */
-    /* color: #fff !important; */
+    padding: 0.2em 0.7em !important;
     border: none !important;
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 1) !important;
 }
 
 .badge.bg-danger {
@@ -129,7 +129,7 @@
 .form-control {
     border-radius: 999px !important;
     /* background: #23272f !important; */
-    color: #fff !important;
+    /* color: #fff !important; */
     border: none !important;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.10) !important;
     padding-left: 2.5rem !important;
@@ -137,7 +137,7 @@
 
 .form-control:focus {
     /* background: #23272f !important; */
-    color: #fff !important;
+    /* color: #fff !important; */
     border: none !important;
     box-shadow: 0 0 0 2px #0d6efd !important;
 }
@@ -180,7 +180,7 @@ header,
 body,
 html {
     background: #181a20 !important;
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 
 .shadow-sm,
@@ -194,6 +194,7 @@ html {
     height: 8px !important;
     background: #23272f !important;
     border-radius: 999px !important;
+    width: 8px !important;
 }
 
 ::-webkit-scrollbar-thumb {
