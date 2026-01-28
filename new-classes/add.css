@@ -74,7 +74,8 @@
 }
 
 .badge.bg-danger {
-    background: linear-gradient(90deg, #ff3d00 60%, #ff9100 100%) !important;
+    background: linear-gradient(90deg, #ff0000 60%, #ff0000 100%) !important;
+    font-size: 0.75em !important;
     color: #fff !important;
 }
 

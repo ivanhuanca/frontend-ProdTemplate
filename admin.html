@@ -26,21 +26,27 @@
                 <div data-v-985fe5e2="" class="bg-body-tertiary min-vh-100">
                     <header data-v-985fe5e2="" class="sticky-top bg-body border-bottom shadow-sm">
                         <div data-v-985fe5e2="" class="container">
-                            <div data-v-985fe5e2="" class="d-flex flex-row align-items-center gap-3 py-3 w-100">
-                                <a data-v-985fe5e2="" aria-current="page" href="/"
-                                    class="router-link-active router-link-exact-active router-link-active router-link-exact-active text-decoration-none fw-semibold d-flex align-items-center gap-2"><i
-                                        data-v-985fe5e2="" class="bi bi-star-fill text-warning fs-3"></i><span
-                                        data-v-985fe5e2="" class="fs-5 text-light">ProdTemplate</span></a>
-                                <div data-v-985fe5e2="" class="flex-grow-1">
-                                    <div data-v-985fe5e2="" class="input-group">
-                                        <div data-v-985fe5e2="" class="position-relative w-100"><input
-                                                data-v-985fe5e2="" class="form-control ps-5" type="search"
-                                                placeholder="Que estas buscando?"><span data-v-985fe5e2=""
-                                                class="position-absolute top-50 start-0 translate-middle-y ms-3"><i
-                                                    data-v-985fe5e2="" class="bi bi-search"></i></span></div>
+                            <!-- d-sm-flex para flex dinámico -->
+                            <div data-v-985fe5e2="" class="d-sm-flex flex-row align-items-center gap-3 py-3 w-100">
+                                <!-- envolver logo y search en un div -->
+                                <div data-v-985fe5e2="" class="d-flex align-items-center gap-2 ms-xl-auto mb-2">
+                                    <a data-v-985fe5e2="" aria-current="page" href="/"
+                                        class="router-link-active router-link-exact-active router-link-active router-link-exact-active text-decoration-none fw-semibold d-flex align-items-center gap-2"><i
+                                            data-v-985fe5e2="" class="bi bi-star-fill text-warning fs-3"></i><span
+                                            data-v-985fe5e2="" class="fs-5 text-light">ProdTemplate</span></a>
+                                    <div data-v-985fe5e2="" class="flex-grow-1">
+                                        <div data-v-985fe5e2="" class="input-group">
+                                            <div data-v-985fe5e2="" class="position-relative w-100"><input
+                                                    data-v-985fe5e2="" class="form-control ps-5" type="search"
+                                                    placeholder="Que estas buscando?"><span data-v-985fe5e2=""
+                                                    class="position-absolute top-50 start-0 translate-middle-y ms-3"><i
+                                                        data-v-985fe5e2="" class="bi bi-search"></i></span></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div data-v-985fe5e2="" class="d-flex flex-wrap align-items-center gap-3 ms-xl-auto">
+                                <!--  justify-content-between para equidistar, quite flex-wrap -->
+                                <div data-v-985fe5e2=""
+                                    class="d-flex align-items-center gap-2 ms-xl-auto justify-content-between">
                                     <div data-v-985fe5e2="" class="d-flex align-items-center gap-2 text-light"><i
                                             data-v-985fe5e2="" class="bi bi-person-circle fs-5"></i><span
                                             data-v-985fe5e2="" class="fw-semibold small">Admin</span>
@@ -48,22 +54,26 @@
                                     <a data-v-985fe5e2="" href="/wallets/transactions"
                                         class="btn btn-primary btn-sm d-flex align-items-center gap-1"><i
                                             data-v-985fe5e2="" class="bi bi-wallet2"></i>
-                                        <span data-v-985fe5e2="">Mi billetera ($1.50)</span>
+                                        <!-- d-none d-sm-block añadido para ocultar el texto en pantallas pequeñas -->
+                                        <span data-v-985fe5e2="" class="d-none d-sm-block">Mi billetera ($1.50)</span>
                                     </a>
                                     <a data-v-985fe5e2="" href="/wallets/my-orders"
                                         class="btn btn-primary btn-sm d-flex align-items-center gap-1">
                                         <i data-v-985fe5e2="" class="bi bi-bag"></i>
-                                        <span data-v-985fe5e2="">Mis compras</span>
+                                        <!-- d-none d-sm-block añadido para ocultar el texto en pantallas pequeñas -->
+                                        <span data-v-985fe5e2="" class="d-none d-sm-block">Mis compras</span>
                                     </a>
                                     <a data-v-985fe5e2="" href="/products"
                                         class="btn btn-primary btn-sm d-flex align-items-center gap-1"><i
                                             data-v-985fe5e2="" class="bi bi-box-seam"></i>
-                                        <span data-v-985fe5e2="">Mis productos</span>
+                                        <!-- d-none d-sm-block añadido para ocultar el texto en pantallas pequeñas -->
+                                        <span data-v-985fe5e2="" class="d-none d-sm-block">Mis productos</span>
                                     </a>
                                     <a data-v-985fe5e2="" href="/validations/my-validations"
-                                        class="btn btn-primary btn-sm d-flex align-items-center gap-1">
+                                        class="btn btn-success btn-sm d-flex align-items-center gap-1">
                                         <i data-v-985fe5e2="" class="bi bi-check2-square"></i>
-                                        <span data-v-985fe5e2="">Mis validaciones</span>
+                                        <!-- d-none d-sm-block añadido para ocultar el texto en pantallas pequeñas -->
+                                        <span data-v-985fe5e2="" class="d-none d-sm-block">Mis validaciones</span>
                                     </a>
                                     <div data-v-985fe5e2="" class="d-flex align-items-center gap-2">
                                         <div data-v-58d5cbae="" data-v-985fe5e2="" class="position-relative">
@@ -79,8 +89,9 @@
                                     </div>
                                     <button data-v-985fe5e2=""
                                         class="btn btn-danger btn-sm d-flex align-items-center gap-1" type="button"><i
-                                            data-v-985fe5e2="" class="bi bi-box-arrow-right"></i><span
-                                            data-v-985fe5e2="">Cerrar sesion</span></button>
+                                            data-v-985fe5e2="" class="bi bi-box-arrow-right"></i>
+                                        <!-- d-none d-sm-block añadido para ocultar el texto en pantallas pequeñas -->
+                                        <span data-v-985fe5e2="" class="d-none d-sm-block">Cerrar sesion</span></button>
                                 </div>
                             </div>
                         </div>
@@ -109,8 +120,9 @@
                                 </div>
                             </div>
                             <div data-v-985fe5e2="" class="position-relative">
+                                <!-- flex-sm-wrap para wrap dinámico -->
                                 <div data-v-985fe5e2=""
-                                    class="d-flex flex-nowrap gap-2 mt-2 tags-list horizontal-scroll"><button
+                                    class="d-flex flex-sm-wrap gap-2 mt-2 tags-list horizontal-scroll"><button
                                         data-v-985fe5e2="" type="button"
                                         class="badge rounded-pill text-bg-warning border mb-2">1 Mes</button><button
                                         data-v-985fe5e2="" type="button"
